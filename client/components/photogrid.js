@@ -1,3 +1,13 @@
-/**
- * Created by matthiaskentzia on 08/08/2016.
- */
+import React from 'react';
+
+const Photogrid = React.createClass({
+  render() {
+    return (
+      <div className="photo-grid">
+        Photogrid
+      </div>
+    )
+  }
+});
+
+export default Photogrid;
